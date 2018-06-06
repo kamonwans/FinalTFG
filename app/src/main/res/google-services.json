@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "153566936450",
+    "firebase_url": "https://thaispellinggame-28cfe.firebaseio.com",
+    "project_id": "thaispellinggame-28cfe",
+    "storage_bucket": "thaispellinggame-28cfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153566936450:android:3e300c23e2dc213f",
+        "android_client_info": {
+          "package_name": "com.project.finalyear.thaispellinggame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153566936450-nligkh0r95ul2e192g50dh6en2pvbrdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1s4_ECt63-GqnGQmJmxN-DmgF1AYt3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

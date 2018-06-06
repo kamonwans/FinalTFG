@@ -1,0 +1,226 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.project.finalyear.thaispellinggame.fragment.LowPitchedPageTwoFragment">
+
+    <LinearLayout
+        android:background="@drawable/bg_hight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center"
+                android:text="อักษรต่ำมีทั้งหมด 24 ตัว"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceToTunk"
+                    android:src="@drawable/to_tung"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceNoNu"
+                    android:src="@drawable/no_nu"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voicePoPan"
+                    android:src="@drawable/po_pan"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <!--<TextView-->
+                    <!---->
+                    <!--android:layout_width="0dp"-->
+                    <!--android:layout_height="70dp"-->
+                    <!--android:layout_weight="1"-->
+                    <!--android:background="@drawable/bg_bnt_3"-->
+                    <!--android:gravity="center"-->
+                    <!--android:text="พ.พาน"-->
+                    <!--android:textSize="20sp" />-->
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceFoFun"
+                    android:src="@drawable/fo_fun"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voicePoSuumpao"
+                    android:src="@drawable/po_sumpao"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceMoMar"
+                    android:src="@drawable/mo_mar"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceYoYark"
+                    android:src="@drawable/yo_yuk"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceRoRue"
+                    android:src="@drawable/ro_reu"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceLoLing"
+                    android:src="@drawable/lo_ling"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceWoWan"
+                    android:src="@drawable/wo_wan"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceRoJura"
+                    android:src="@drawable/ro_jura"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceHoNukhuk"
+                    android:src="@drawable/ho_nukhuk"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_back" />
+                <ImageView
+                    android:id="@+id/imgNext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_next" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e9e8e9</color>
+    <color name="colorPrimaryDark">#555555</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorHomeTabName">#FE8ADAC1</color>
+    <color name="tvLevelColor">#3A9EB8</color>
+    <color name="colorPrimaryButton">#4BACC6</color>
+    <color name="colorTextButton">#FFFFFF</color>
+    <color name="colorBlack">#000000</color>
+</resources>

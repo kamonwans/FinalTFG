@@ -1,0 +1,211 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.project.finalyear.thaispellinggame.fragment.HightPitchedFragment">
+
+    <LinearLayout
+        android:background="@drawable/bg_hight"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/bg_edit_text"
+                android:gravity="center"
+                android:text="อักษรสูงมีทั้งหมด 11 ตัว"
+                android:textSize="24sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+
+                    android:id="@+id/voiceKhoKhai"
+                    android:src="@drawable/kho_khai"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceKhoKhod"
+                    android:src="@drawable/kho_khod"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceChoChing"
+                    android:src="@drawable/cho_ching"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceToTan"
+                    android:src="@drawable/to_than"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceToTung"
+                    android:src="@drawable/to_tunk"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voicePoPueng"
+                    android:src="@drawable/po_pueng"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceFoFha"
+                    android:src="@drawable/fo_fha"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceSoSara"
+                    android:src="@drawable/so_sara"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceSoRuesee"
+                    android:src="@drawable/so_ruesee"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceSoSue"
+                    android:src="@drawable/so_seu"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="0dp"
+                    android:layout_height="100dp"
+                    android:layout_weight="1"
+                    android:elevation="5dp"
+                    android:padding="6dp"
+                    android:id="@+id/voiceHoHeeb"
+                    android:src="@drawable/ho_heeb"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/imgBack"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_back" />
+                <ImageView
+                    android:id="@+id/imgNext"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:src="@drawable/icon_next" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</FrameLayout>

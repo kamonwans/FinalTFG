@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/bg_lean_section"
+    android:weightSum="10"
+    tools:context=".fragment.ThreeLettersFragment">
+     <RelativeLayout
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:layout_weight="2">
+
+         <TextView
+             android:textStyle="bold"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_centerInParent="true"
+             android:text="สื่อการเรียนรู้อักษรสามหมู่"
+             android:textSize="24sp" />
+
+     </RelativeLayout>
+
+
+
+     <GridLayout
+         android:layout_weight="8"
+         android:alignmentMode="alignMargins"
+         android:layout_width="match_parent"
+         android:layout_height="0dp"
+         android:columnCount="1"
+         android:columnOrderPreserved="false"
+         tools:targetApi="ice_cream_sandwich"
+         android:padding="14dp"
+         android:rowCount="3">
+         <!-- Row 1 -->
+         <android.support.v7.widget.CardView
+             android:id="@+id/tvLowPitched"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_columnWeight="1"
+             android:layout_marginBottom="16dp"
+             android:layout_marginLeft="16dp"
+             android:layout_marginRight="16dp"
+             android:layout_rowWeight="3">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal|center_vertical"
+                 android:layout_margin="16dp"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="50dp"
+                     android:layout_gravity="center_horizontal"
+                     android:src="@drawable/low_piched" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="พยัญชนะอักษรต่ำ"
+                     android:textAlignment="center"
+                     android:textSize="16sp"
+                     />
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+
+         <!-- Row 2 -->
+         <android.support.v7.widget.CardView
+             android:id="@+id/tvMidrange"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_columnWeight="1"
+             android:layout_marginBottom="16dp"
+             android:layout_marginLeft="16dp"
+             android:layout_marginRight="16dp"
+             android:layout_rowWeight="3">
+
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal|center_vertical"
+                 android:layout_margin="16dp"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="50dp"
+                     android:layout_gravity="center_horizontal"
+                     android:src="@drawable/mid_piched" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="พยัญชนะอักษรกลาง"
+                     android:textAlignment="center"
+                     android:textSize="16sp"
+                     />
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+
+         <!-- Row 3 -->
+         <android.support.v7.widget.CardView
+             android:id="@+id/tvHighPitched"
+             android:layout_width="0dp"
+             android:layout_height="0dp"
+             android:layout_columnWeight="1"
+             android:layout_marginBottom="16dp"
+             android:layout_marginLeft="16dp"
+             android:layout_marginRight="16dp"
+             android:layout_rowWeight="3">
+
+             <LinearLayout
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:layout_gravity="center_horizontal|center_vertical"
+                 android:layout_margin="16dp"
+                 android:orientation="vertical">
+                 <ImageView
+                     android:layout_width="wrap_content"
+                     android:layout_height="50dp"
+                     android:layout_gravity="center_horizontal"
+                     android:src="@drawable/hight_piched" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:text="พยัญชนะอักษรสูง"
+                     android:textAlignment="center"
+                     android:textSize="16sp"
+                      />
+
+             </LinearLayout>
+
+         </android.support.v7.widget.CardView>
+
+     </GridLayout>
+
+    <LinearLayout
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnBackLeaning"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg_bnt_grey"
+            android:text="@string/name_menu_learn" />
+    </LinearLayout>
+</LinearLayout>

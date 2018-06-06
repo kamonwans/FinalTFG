@@ -1,0 +1,99 @@
+{
+  "project_info": {
+    "project_number": "153566936450",
+    "firebase_url": "https://thaispellinggame-28cfe.firebaseio.com",
+    "project_id": "thaispellinggame-28cfe",
+    "storage_bucket": "thaispellinggame-28cfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153566936450:android:3e300c23e2dc213f",
+        "android_client_info": {
+          "package_name": "com.project.finalyear.thaispellinggame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153566936450-34tri778g3hipm5c5eu1map4hvserjhd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.project.finalyear.thaispellinggame",
+            "certificate_hash": "26369851be72c6350bd97275fb7837880c55e4a4"
+          }
+        },
+        {
+          "client_id": "153566936450-nligkh0r95ul2e192g50dh6en2pvbrdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1s4_ECt63-GqnGQmJmxN-DmgF1AYt3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153566936450-nligkh0r95ul2e192g50dh6en2pvbrdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:153566936450:android:6d7e0eb7f9a139ef",
+        "android_client_info": {
+          "package_name": "com.example.kamonwan.projecttsg"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "153566936450-347docf4shg2ii5o3alsjos96htfq3vo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kamonwan.projecttsg",
+            "certificate_hash": "9ee6a175d7f17c2251c896a0d8d9c7325f26beea"
+          }
+        },
+        {
+          "client_id": "153566936450-nligkh0r95ul2e192g50dh6en2pvbrdc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE1s4_ECt63-GqnGQmJmxN-DmgF1AYt3I"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "153566936450-nligkh0r95ul2e192g50dh6en2pvbrdc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

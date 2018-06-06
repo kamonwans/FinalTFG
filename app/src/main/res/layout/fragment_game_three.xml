@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_game_three"
+    android:orientation="vertical"
+    tools:context=".fragment.GameThreeFragment">
+    <include layout="@layout/header_game" />
+
+    <!-- body -->
+    <RelativeLayout
+        android:id="@+id/layoutArea"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/ballTwo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-125dp">
+
+            <TextView
+                android:id="@+id/tvTwo"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/cloud"
+                android:gravity="center_horizontal"
+                android:paddingTop="60dp"
+                android:text=""
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/ballThree"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-135dp">
+
+            <TextView
+                android:id="@+id/tvThree"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/star"
+                android:gravity="center"
+                android:text=""
+                android:textSize="16dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_alignParentRight="true"
+            android:id="@+id/ballOne"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="-100dp">
+
+            <TextView
+                android:id="@+id/tvOne"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@drawable/moon"
+                android:gravity="center"
+                android:text=""
+                android:textSize="18dp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgBonus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/bg_bonus"
+            android:visibility="invisible" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

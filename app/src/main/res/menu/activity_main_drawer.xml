@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="หน้าหลัก" />
+        <item
+            android:id="@+id/nav_learn"
+            android:icon="@drawable/ic_learn"
+            android:title="สื่อการเรียนรู้" />
+        <item
+            android:id="@+id/nav_exam"
+            android:icon="@drawable/ic_exam"
+            android:title="แบบทดสอบ" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_profile"
+            android:title="แก้ไขโปรไฟล์" />
+        <item
+            android:id="@+id/nav_contact"
+            android:icon="@drawable/ic_contact"
+            android:title="ติดต่อเรา" />
+
+
+    </group>
+
+
+
+</menu>

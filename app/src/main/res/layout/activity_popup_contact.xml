@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="wrap_content"
+    android:background="#F5F5DC">
+    <LinearLayout
+
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <Button
+            android:padding="5dp"
+            android:background="@drawable/bg_bnt_6"
+            android:id="@+id/btnContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เกี่ยวกับผู้พัฒนา" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="10dp"/>
+        <Button
+            android:padding="5dp"
+            android:background="@drawable/bg_bnt_1"
+            android:id="@+id/btnContactApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="เกี่ยวกับแอปพลิเคชัน" />
+    </LinearLayout>
+</LinearLayout>

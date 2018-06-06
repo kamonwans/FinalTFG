@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg_game_two"
+    tools:context=".fragment.GameTwoFragment">
+
+    <include layout="@layout/header_game" />
+
+    <!-- body -->
+    <RelativeLayout
+        android:id="@+id/main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/btnSubmit"
+            android:layout_alignParentTop="true"
+            android:orientation="vertical"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/txtQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dp"
+                android:gravity="center"
+                android:text="Question"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+
+            <GridView
+                android:id="@+id/gridAnswer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:padding="4dp"
+                android:layout_gravity="center"
+                android:horizontalSpacing="4dp"
+                android:verticalSpacing="4dp"
+                android:columnWidth="40dp"
+                android:numColumns="8"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth">
+            </GridView>
+
+            <GridView
+                android:id="@+id/gridViewSuggest"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="10dp"
+                android:columnWidth="40dp"
+                android:gravity="center"
+                android:horizontalSpacing="8dp"
+                android:numColumns="8"
+                android:padding="4dp"
+                android:scrollbars="none"
+                android:stretchMode="columnWidth"
+                android:verticalSpacing="8dp"></GridView>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="#f2705f"
+            android:text="Submit"
+            android:textColor="#ffffff" />
+
+        <ImageView
+            android:id="@+id/imgBonus"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/bg_bonus"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

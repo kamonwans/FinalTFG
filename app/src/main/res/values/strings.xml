@@ -1,0 +1,80 @@
+<resources>
+
+    <string name="facebook_app_id">2088731947820077</string>
+    <string name="fb_login_protocol_scheme">fb2088731947820077</string>
+
+    <string name="app_name">ThaiSpellingGame</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="contact_app">\t\tแอปพลิคชันนี้เป็นแอปพลิเคชันเกมคำศัพท์ไทยที่มักเขียนผิด จัดทำขึ้นเพื่อกระตุ้นให้ผู้เล่นมีปฏิสัมพันธ์กับผู้อื่นและช่วยลดปัญหาการเรียนคำศัพท์ภาษาไทยที่มักเขียนผิดให้ลดน้อยลง</string>
+
+    <string name="contact_us_dept">ภาควิชาวิทยาการคอมพิวเตอร์ มหาวิทยาลัยขอนแก่น</string>
+
+    <string name="contact_us_pro">อาจารย์ที่ปรึกษาโครงงาน</string>
+    <string name="contact_us_id_user1">573020355-4 Cs</string>
+    <string name="contact_us_id_user2">573020399-4 Cs</string>
+    <string name="contact_us_name_teacher">อาจารย์ชิตสุธา สุ่มเล็ก</string>
+    <string name="contact_us_name_user1">นางสาวกมลวรรณ สิงสวนมอญ</string>
+    <string name="contact_us_name_user2">นางสาวอภิญญา จ่ากลาง</string>
+    <string name="trick">คำว่าหลงใหล หากนำไปเปรียบเทียบกับคู่รัก สระใอไม้ม้วน (-ใ)  ก็เปรียบกับการกอดกันของคนสองคน</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="name_learning_maekok">"แม่ กก"</string>
+    <string name="name_learning_maekong">"แม่ กง"</string>
+    <string name="name_learning_maekon">"แม่ กน"</string>
+    <string name="name_learning_maekom">"แม่ กม"</string>
+    <string name="name_learning_maekob">"แม่ กบ"</string>
+    <string name="name_learning_maegoew">"แม่ เกอว"</string>
+    <string name="name_learning_maegery">"แม่ เกย"</string>
+    <string name="name_learning_maekod">"แม่ กด"</string>
+    <string name="content_maekok_1">"คือ คำที่อ่านออกเสียงเหมือน \"ก\" เป็นตัวสะกด ส่วนตัวสะกดที่ไม่ตรงตามมาตราของแม่ กก คือ  ก ข ค ฆ "</string>
+    <string name="content_maekok_2">"กระจก อ่านว่า กระ - จก "</string>
+    <string name="content_maekok_3">"พรรค อ่านว่า พัก "</string>
+    <string name="content_maekok_4">"มัฆวาน อ่านว่า มัก - คะ - วาน "</string>
+    <string name="content_maekok_5">"สุนัข อ่านว่า สุ - นัก "</string>
+    <string name="content_maekong_1">"คือ คำที่อ่านออกเสียงเหมือน \"ง\" เป็นตัวสะกด"</string>
+    <string name="content_maekong_2">"กองกลาง"</string>
+    <string name="content_maekong_3">"สำเนียง"</string>
+    <string name="content_maekong_4">"พิธีรีตอง"</string>
+    <string name="content_maekong_5">"มะเส็ง "</string>
+    <string name="content_maekob_1">"คือ คำที่อ่านออกเสียงเหมือน \"บ\" เป็นตัวสะกด ส่วนตัวสะกดที่ไม่ตรงตามมาตราของแม่ กบ คือ"</string>
+    <string name="content_maekob_2">"บ ป พ ภ ฟ"</string>
+    <string name="content_maekob_3">"ภาพ อ่านว่า พาบ "</string>
+    <string name="content_maekob_4">"กราฟ อ่านว่า กร๊าบ"</string>
+    <string name="content_maekob_5">"มณฑป อ่านว่า มน - ดบ"</string>
+    <string name="content_maekob_6">"อาภัพ อ่านว่า อา – พับ"</string>
+    <string name="content_maekon_1">"คือ คำที่อ่านออกเสียงเหมือน \"น\" เป็นตัวสะกด ส่วนตัวสะกดที่ไม่ตรงตามมาตราของแม่ กน คือ"</string>
+    <string name="content_maekon_2">"คน ณ ญ ร ล ฬ"</string>
+    <string name="content_maekon_3">"บริเวณ อ่านว่า บอ - ริ - เวน"</string>
+    <string name="content_maekon_4">"จราจร อ่านว่า จะ - รา - จอน"</string>
+    <string name="content_maekon_5">"เทศบาล อ่านว่า เทด - สะ - บาน"</string>
+    <string name="content_maekon_6">"ปัญญา อ่านว่า ปัน - ยา"</string>
+    <string name="content_maekod_1">"คือ คำที่อ่านออกเสียงเหมือน \"ด\" เป็นตัวสะกด ส่วนตัวสะกดที่ไม่ตรงตามมาตราของแม่ กด คือ"</string>
+    <string name="content_maekod_2">"จ ด ต ถ ท ธ ฎ ฏ ฑ ฒ ช ซ ศ ษ ส"</string>
+    <string name="content_maekod_3">"สมเพช อ่านว่า สม - เพด"</string>
+    <string name="content_maekod_4">"ประเสริฐ อ่านว่า ประ - เสิด"</string>
+    <string name="content_maekod_5">"ทายาท อ่านว่า ทา - ยาด"</string>
+    <string name="content_maekod_6">"เสร็จ อ่านว่า เส็ด"</string>
+    <string name="content_maekom_1">"คือ คำที่อ่านออกเสียงเหมือน \"ม\" เป็นตัวสะกด"</string>
+    <string name="content_maekom_2">"กระหม่อม"</string>
+    <string name="content_maekom_3">"ทะนุถนอม "</string>
+    <string name="content_maekom_4">"ชมรม "</string>
+    <string name="content_maekom_5">"จริยธรรม "</string>
+    <string name="content_maeguew_1">"คือ คำที่อ่านออกเสียงเหมือน \"ว\" เป็นตัวสะกด "</string>
+    <string name="content_maeguew_2">"ก๋วยเตี๋ยว"</string>
+    <string name="content_maeguew_3">"ข่าวลือ"</string>
+    <string name="content_maeguew_4">"ประเดี๋ยว"</string>
+    <string name="content_maeguew_5">"ทาวน์เฮ้าส์"</string>
+    <string name="content_maekery_1">"คือ คำที่อ่านออกเสียงเหมือน \"ย\" เป็นตัวสะกด"</string>
+    <string name="content_maekery_2">"นโยบาย "</string>
+    <string name="content_maekery_3">"เนย "</string>
+    <string name="content_maekery_4">"สาหร่าย "</string>
+    <string name="content_maekery_5">"เสวย  "</string>
+    <string name="name_menu_learn">"สื่อการเรียนรู้"</string>
+</resources>
